@@ -1,5 +1,8 @@
 package practice;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PrimitiveType {
     public static void main(String[] args) {
 
@@ -36,6 +39,7 @@ public class PrimitiveType {
         int secondVariable = 400;
 
         System.out.println(Integer.max(firstVariable, secondVariable));
+        System.out.println(Integer.max(1, 2));
         System.out.println(Integer.compare(400, 400));
 
         // Method call
@@ -55,6 +59,19 @@ public class PrimitiveType {
         // Boolean
 
         boolean isStudent = false;
+
+        int x = 1;
+        double y = 2.0;
+
+        List<Object> listOfGrades = new ArrayList<>();
+        listOfGrades.add(8);
+        listOfGrades.add(6);
+        listOfGrades.add(4);
+        listOfGrades.add("Hello World");
+        System.out.println("Test");
+
+
+
 
     }
 
